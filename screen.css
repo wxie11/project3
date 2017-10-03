@@ -48,6 +48,21 @@ h1 {
   line-height: 1.032em; /* 44 / 42.635 = 1.032 */
   padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
+
+h2 {
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.032em; /* 33 / 31.984 = 1.032 */
+  padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
+}
+
+h3 {
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
 /* Responsive Media */
 img {
   display: block;
