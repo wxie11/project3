@@ -55,6 +55,19 @@ h4 {
   font-weight: bold;
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
 }
+
+ul {
+  list-style-type: square;
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
+}
+
+li ul {
+  list-style-type: circle;
+}
+
+p {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
 /* Responsive Media */
 img {
   display: block;
