@@ -68,6 +68,7 @@ li ul {
 p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
+
 /* Responsive Media */
 img {
   display: block;
@@ -81,7 +82,13 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#header {
+  text-align: center;
+}
 
+#footer {
+  text-align: center;
+}
 
 /* Modular Styles */
 /*
