@@ -69,12 +69,8 @@ h4 {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
-}
-
-li {
-  display: inline;
 }
 
 li ul {
@@ -109,8 +105,9 @@ img {
   background-color: #E0FFFF;
 }
 
-
-
+#header li {
+  display: inline;
+}
 
 /* Modular Styles */
 /*
