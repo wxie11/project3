@@ -37,6 +37,13 @@ header {
   text-align: center;
 }
 
+nav {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111111 */
+}
+
+a {
+  padding: 0.611em; /* 11 / 18 = 0.6111111111 */
+}
 
 h1 {
   font-size: 2.369em; /* 42.635 / 18 = 2.369 */
@@ -94,7 +101,13 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#navigation {
+  background-color: #F0F8FF;
+}
 
+#navigation a:hover {
+  background-color: #E0FFFF;
+}
 
 
 
