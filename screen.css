@@ -35,6 +35,7 @@ body {
 
 header {
   text-align: center;
+  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
 }
 
 nav {
@@ -101,13 +102,19 @@ img {
   background-color: #F0F8FF;
 }
 
+#navigation a {
+  text-decoration: none;
+}
+
 #navigation a:hover {
   background-color: #E0FFFF;
 }
 
-#header li {
+#navigation li {
   display: inline;
 }
+
+
 
 /* Modular Styles */
 /*
