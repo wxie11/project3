@@ -87,7 +87,12 @@ li ul {
 }
 
 p {
+  padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
+figcaption {
+  font-size: 0.75em;
 }
 
 footer {
@@ -97,12 +102,12 @@ footer {
   color: white;
   font-weight: bold;
 }
+
 /* Responsive Media */
 img {
   display: block;
   max-width: 100%;
 }
-
 
 /* Layout Styles */
 /*
@@ -177,3 +182,27 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+@media screen and (max-width: 680px) and (min-width: 320px) {
+  nav {
+    font-size: 0.75em;
+  }
+  main {
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+  }
+  footer {
+    padding: 0;
+  }
+  #header {
+    height: 2em;
+  }
+  #head {
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  #navigation a {
+    padding: 0.8em;
+  }
+}
