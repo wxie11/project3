@@ -34,15 +34,13 @@ body {
 
 header {
   padding: 3em 10%;
-  background-color: #c0dfd9;
   height: 5em;
-  position: relative;
 }
 
 nav {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111111 */
-  position: absolute;
   bottom: 0;
+  float: right;
 }
 
 a {
@@ -50,9 +48,11 @@ a {
 }
 
 main {
-    background-color: #e9ece5;
-    padding-left: 8em;
-    padding-right: 8em;
+  padding-top: 1.5em;
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-bottom: 1.5em;
+
 }
 
 h1 {
@@ -110,22 +110,38 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#header {
+  position: relative;
+  background-color: #c0dfd9;
+  color: white;
+}
+
+#head {
+  font-weight: bolder;
+  font-size: 4.209em;
+}
+
 #navigation {
-  background-color: #F0F8FF;
+  position: absolute;
 }
 
 #navigation a {
   text-decoration: none;
+  padding: 2em;
+  width: 100%;
 }
 
-#navigation a:hover {
+/*#navigation a:hover {
   background-color: #E0FFFF;
-}
+}*/
 
 #navigation li {
   display: inline;
 }
 
+#content {
+  background-color: #e9ece5;
+}
 
 /* Modular Styles */
 /*
