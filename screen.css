@@ -28,22 +28,31 @@ html {
 }
 
 body {
-  padding-top: 2.444em; /* 44 / 18 = 2.44444444 */
-  padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  text-align: center;
-  padding-bottom: 0.516em; /* 22 / 42.635 = 0.516 */
+  padding: 3em 10%;
+  background-color: #c0dfd9;
+  height: 5em;
+  position: relative;
 }
 
 nav {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111111 */
+  position: absolute;
+  bottom: 0;
 }
 
 a {
   padding: 0.611em; /* 11 / 18 = 0.6111111111 */
+}
+
+main {
+    background-color: #e9ece5;
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
 h1 {
@@ -83,13 +92,16 @@ p {
 }
 
 footer {
+  padding-top: 1em;
   text-align: center;
+  background-color: #c0dfd9;
 }
 /* Responsive Media */
 img {
   display: block;
   max-width: 100%;
 }
+
 
 /* Layout Styles */
 /*
@@ -115,7 +127,6 @@ img {
 }
 
 
-
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -124,6 +135,8 @@ img {
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+
+
 
 /* State Styles */
 /*
