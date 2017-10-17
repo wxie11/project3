@@ -24,7 +24,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   font-family: "Book Antiqua", garamond, "Times New Roman", Helvetica, Arial, sans-serif;
-  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+  line-height: 1.222em; /* 22 / 18 = 1.2222 */
 }
 
 body {
@@ -33,8 +33,8 @@ body {
 }
 
 header {
-  padding: 3em 10% ;
-  height: 6em;
+  padding: 3em 10%; /* 54 / 18 = 3 */
+  height: 6em; /* 108 / 18 = 6 */
 }
 
 nav {
@@ -43,15 +43,22 @@ nav {
 }
 
 a {
-  padding: 0.611em; /* 11 / 18 = 0.6111111111 */
+  padding: 0.5em; /* 9 / 18 = 0.5 */
 }
 
 main {
-  padding-top: 1.5em;
-  padding-left: 8em;
-  padding-right: 8em;
-  padding-bottom: 1.5em;
+  padding: 0.611em 10% 1.222em; /* Top: 22 / 18 = 0.61111 Bottom: 22 / 18 = 1.2222 */
   color: #3b3a36;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1 {
@@ -68,35 +75,36 @@ h2 {
 
 h3 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  line-height: 1em; /* 24 / 23.994 = 1.00025 */
   font-weight: bold;
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
+  padding-bottom: 0.917em; /* 22 / 23.994 = 0.9168 */
 }
 
 h4 {
   font-weight: bold;
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
 }
 
 ul {
   list-style-type: square;
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+
+li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
 li ul {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0;
   list-style-type: circle;
 }
 
-p {
-  padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
-  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
-}
-
 figcaption {
-  font-size: 0.75em;
+  font-size: 0.75em; /* 13.503 / 18 = 0.75 */
 }
 
 footer {
-  padding-top: 1em;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111111 */
   text-align: center;
   background-color: #c0dfd9;
   color: white;
@@ -119,7 +127,6 @@ img {
 
 #head {
   font-weight: bolder;
-  font-size: 4.209em;
 }
 
 #navigation {
@@ -129,7 +136,6 @@ img {
 
 #navigation a {
   text-decoration: none;
-  padding: 0.63em;
   width: 100%;
   color: #3fb0ac;
 }
@@ -137,6 +143,7 @@ img {
 #navigation a:visited {
   color: #3fb0ac;
 }
+
 #navigation a:active {
   color: white;
 }
@@ -144,6 +151,10 @@ img {
 #navigation a:hover {
   background-color: #3fb0ac;
   color: white;
+}
+
+#navigation ul {
+  padding-bottom: 0.5em; /* 9 / 18 = 0.5 */
 }
 
 #navigation li {
@@ -182,27 +193,12 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (max-width: 680px) and (min-width: 320px) {
-  nav {
-    font-size: 0.75em;
+@media screen and (min-width: 960px) {
+  header {
+    height: 6em; /* 108 / 18 = 6 */
   }
-  main {
-    padding-top: 1em;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-bottom: 1em;
-  }
-  footer {
-    padding: 0;
-  }
-  #header {
-    height: 2em;
-  }
+
   #head {
-    font-weight: bolder;
-    font-size: 2em;
-  }
-  #navigation a {
-    padding: 0.8em;
+    font-size: 4.209em;
   }
 }
