@@ -217,10 +217,9 @@ img {
     display: flex;
     flex-flow: row wrap;
   }
-    #one, #two, #three, #four{
-    flex : 1 25%;
+  #one, #two, #three, #four {
+    flex: 1 25%;
     height: 33.333vw;
   }
 
-  }
 }
