@@ -216,4 +216,14 @@ img {
   #head {
     font-size: 4.209em;
   }
+  .images {
+    display: flex;
+    flex-flow: row wrap;
+  }
+    #one, #two, #three, #four{
+    flex : 1 25%;
+    height: 33.333vw;
+  }
+
+  }
 }
