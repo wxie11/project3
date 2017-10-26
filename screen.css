@@ -210,14 +210,14 @@ img {
   #head {
     font-size: 4.209em;
   }
-   .flexbox .images {
+  .flexbox .images {
     display: flex;
     flex-flow: row wrap;
   }
-   .flexbox #one,
-   .flexbox #two,
-   .flexbox #three,
-   .flexbox #four {
+  .flexbox #one,
+  .flexbox #two,
+  .flexbox #three,
+  .flexbox #four {
     flex: 1 25%;
   }
 
