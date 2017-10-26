@@ -213,13 +213,15 @@ img {
   #head {
     font-size: 4.209em;
   }
-  .images {
+   .flexbox .images {
     display: flex;
     flex-flow: row wrap;
   }
-  #one, #two, #three, #four {
+   .flexbox #one,
+   .flexbox #two,
+   .flexbox #three,
+   .flexbox #four {
     flex: 1 25%;
-    height: 33.333vw;
   }
 
 }
