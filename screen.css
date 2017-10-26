@@ -52,9 +52,6 @@ main {
   color: #3b3a36;
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6,
@@ -76,29 +73,29 @@ h2 {
 
 h3 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
-  line-height: 0.92em; /* 22 / 23.994 = 0.9168 */
+  line-height: 0.9168em; /* 22 / 23.994 = 0.9168 */
   font-weight: bold;
-  padding-bottom: 0.458em; /* 11 / 23.994 = 0.458 */
+  padding-bottom: 0.9169em;
 }
 
 h4 {
   font-weight: bold;
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 
 ul {
   list-style-type: square;
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222 */
 }
 
 li ul {
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0;
   list-style-type: circle;
 }
 
 figcaption {
   font-size: 0.75em; /* 13.503 / 18 = 0.75 */
+  line-height: 1.6293em; /* 22 / 13.503 = 1.6293 */
+  padding-bottom: 0.815em; /* 11 / 13.503 = 0.815 */
 }
 
 footer {
