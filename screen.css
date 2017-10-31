@@ -25,6 +25,7 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   font-family: "Book Antiqua", garamond, "Times New Roman", Helvetica, Arial, sans-serif;
   line-height: 1.222em; /* 22 / 18 = 1.2222 */
+  background-color: #c0dfd9;
 }
 
 body {
@@ -101,7 +102,6 @@ figcaption {
 footer {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111111 */
   text-align: center;
-  background-color: #c0dfd9;
   color: white;
   font-weight: bold;
 }
@@ -176,7 +176,6 @@ img {
 */
 #header {
   position: relative;
-  background-color: #c0dfd9;
   color: white;
   border-bottom: 0.18em solid #3fb0ac;
 }
