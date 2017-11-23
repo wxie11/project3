@@ -209,7 +209,7 @@ img {
   #head {
     font-size: 4.209em;
   }
-  .flexbox .images {
+  /*.flexbox .images {
     display: flex;
     flex-flow: row wrap;
   }
@@ -218,6 +218,18 @@ img {
   .flexbox #three,
   .flexbox #four {
     flex: 1 25%;
+  }*/
+  #primary {
+    width:46.7%; /* 359 / 768= 0.46744 */
+    float: left;
+  }
+  #secondary {
+    width:46.7%;
+    margin-left: 6.51%;
+    float:left;
+  }
+  #footer {
+    clear: both;
   }
 
 }
