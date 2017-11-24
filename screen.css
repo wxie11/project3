@@ -163,6 +163,16 @@ img {
   background-color: #e9ece5;
 }
 
+#idea {
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+}
+
+#idea ul {
+  list-style-type: none;
+}
+
 #footer {
   border-top: 0.18em solid #3fb0ac;
 }
@@ -196,7 +206,7 @@ img {
   }
   a {
     padding: 0.61em; /* 11 / 18 = 0.61111 */
-  }
+  },
 }
 
 @media screen and (min-width: 640px) {
