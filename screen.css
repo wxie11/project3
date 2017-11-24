@@ -207,7 +207,7 @@ img {
   }
   a {
     padding: 0.61em; /* 11 / 18 = 0.61111 */
-  },
+  }
 }
 
 @media screen and (min-width: 640px) {
@@ -221,16 +221,16 @@ img {
     font-size: 4.209em;
   }
   #primary {
-    width:46.7%; /* 359 / 768= 0.46744 */
+    width: 46.7%; /* 359 / 768= 0.46744 */
     float: left;
   }
   #resume #primary {
     width: 100%;
   }
   #secondary {
-    width:46.7%;
+    width: 46.7%;
     margin-left: 6.51%;
-    float:left;
+    float: left;
   }
   #footer {
     clear: both;
