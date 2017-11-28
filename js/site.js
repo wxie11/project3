@@ -14,6 +14,16 @@ $.noConflict();
   }
 
   $('#music').remove(); // remove the HTML
+
+  $('#chicago').hover(function()
+  {
+    $('#chicago').attr('src', 'media/chicago2.jpg');
+  },
+  function()
+  {
+    $('#chicago').attr('src', 'media/chicago.jpg');
+  })
+
   $('#chicago').on('click',sing);
 
 })(jQuery);
