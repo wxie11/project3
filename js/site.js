@@ -22,14 +22,15 @@ $.noConflict();
   function()
   {
     $('#chicago').attr('src', 'media/chicago.jpg');
-  })
+  });
 
-  $('#chicago').on('click',sing);
+  $('#chicago').on('click', sing);
 
   $(document).keypress(function(e) {
     if(e.key === 's') {
-      if(music.paused == true)
+      if(music.paused === true) {
         music.play();
+      }
       else {
         music.pause();
       }
