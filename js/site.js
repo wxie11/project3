@@ -14,9 +14,9 @@ $.noConflict();
   }
 
   $('#music').remove(); // remove the HTML
+  $('#click').append('<li>Press S to Pause/Resume.</i>');
 
-  $('#chicago').hover(function()
-  {
+  $('#chicago').hover(function() {
     $('#chicago').attr('src', 'media/chicago2.jpg');
   },
   function()
@@ -25,5 +25,15 @@ $.noConflict();
   })
 
   $('#chicago').on('click',sing);
+
+  $(document).keypress(function(e) {
+    if(e.key === 's') {
+      if(music.paused == true)
+        music.play();
+      else {
+        music.pause();
+      }
+    }
+  });
 
 })(jQuery);
